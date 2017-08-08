@@ -1,0 +1,11 @@
+
+spring:
+  application:
+    name: spring-webflux
+
+server:
+  port: ${PORT:9090}
+
+logging:
+  level:
+    com.ps: DEBUG
